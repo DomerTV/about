@@ -1,0 +1,44 @@
+/* Общие стили */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  background: linear-gradient(to right, #e3f2fd, #ffffff);
+  color: #1a1a1a;
+  line-height: 1.6;
+  padding: 40px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+/* Заголовок */
+h1 {
+  font-size: 3em;
+  color: #1565c0;
+  margin-bottom: 0.3em;
+  border-bottom: 2px solid #90caf9;
+  padding-bottom: 10px;
+}
+
+/* Параграфы */
+p {
+  font-size: 1.2em;
+  margin-bottom: 1.5em;
+}
+
+/* Адаптация под маленькие экраны */
+@media (max-width: 600px) {
+  body {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+}
